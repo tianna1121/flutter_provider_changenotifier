@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class ThemeState with ChangeNotifier {
   ThemeData darkHackNewsTheme = ThemeData.dark();
-
   ThemeData hackNewsTheme = ThemeData.light();
 
   ThemeData _themeData;
